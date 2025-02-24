@@ -12,12 +12,10 @@
     "optimize-videos-simple": "node scripts/optimize-videos-simple.js"
   },
   "dependencies": {
-    "@emailjs/browser": "^4.1.0",
     "framer-motion": "^11.18.2",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-hot-toast": "^2.4.1"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
