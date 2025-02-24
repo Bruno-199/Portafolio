@@ -1,10 +1,23 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22currentColor%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 class=%22feather feather-briefcase%22><rect x=%222%22 y=%227%22 width=%2220%22 height=%2214%22 rx=%222%22 ry=%222%22></rect><path d=%22M16 3v4M8 3v4M2 10h20%22></path></svg>" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio Bruno</title>
+    <meta name="description" content="Portfolio de Bruno Bazan - Desarrollador Full Stack" />
+    <title>Portfolio Bruno</title>
+    
+    <!-- Precargar recursos críticos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    
+    <!-- Cargar CSS correctamente -->
+    <link rel="stylesheet" href="/src/index.css">
+    
+    <!-- Precargar imagen crítica -->
+    <link rel="preload" href="/images/profile.webp" as="image" type="image/webp">
+    
+    <!-- Precargar módulos JavaScript críticos -->
+    <link rel="modulepreload" href="/src/App.tsx">
   </head>
   <body>
     <div id="root"></div>
