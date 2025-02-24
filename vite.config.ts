@@ -7,19 +7,11 @@ export default defineConfig({
     react(),
     imagetools()
   ],
+  base: '/',
   build: {
+    outDir: 'dist',
     minify: 'terser',
-    cssMinify: true,
-    cssCodeSplit: true,
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          'vendor': ['react', 'react-dom'],
-          'animations': ['framer-motion'],
-          'styles': ['./src/index.css']
-        }
-      }
-    }
+    sourcemap: false
   },
   css: {
     modules: {
